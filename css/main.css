@@ -126,7 +126,7 @@ body
     -ms-transition: all 0.8s linear;
     -o-transition: all 0.8s linear;
     color: var(--black-color);
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     margin-left: 120px;
 }
@@ -352,14 +352,6 @@ body
     gap: 15px;
   }
   
-  .serach-form .img-quantity {
-    outline: none;
-    border: none;
-    height: 44px;
-    background: none;
-    font-size: 1rem;
-  }
-  
   .serach-form .serach-btn {
     font-size: 1rem;
     outline: none;
@@ -379,7 +371,7 @@ body
   
 header .sliderBg
 {
-    background: url(../images/clothing-3.jpg)rgba(38, 37, 37, 0.35);
+    background: url(../images/slider-bg/clothing.jpg)rgba(38, 37, 37, 0.35);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -827,9 +819,9 @@ header .sliderBg #sliderCaption
     -moz-border-radius: 0;
     -ms-border-radius: 0;
     -o-border-radius: 0;
-}
-.inputForm input{
-    width:430px;
+    margin-left: -20px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
 }
 /* End section-wrap     */
 /* Start Section footer  */
