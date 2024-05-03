@@ -104,7 +104,7 @@ body
     display: inline-block;
     color: #333333;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 400;
     transition: all 0.8s linear;
     -webkit-transition: all 0.8s linear;
     -moz-transition: all 0.8s linear;
@@ -126,7 +126,7 @@ body
     -ms-transition: all 0.8s linear;
     -o-transition: all 0.8s linear;
     color: var(--black-color);
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     margin-left: 120px;
 }
@@ -225,6 +225,7 @@ body
 {
     text-align: center;
 }
+
 #searchInput
 {
     background-color:var(--color-body);
@@ -445,7 +446,7 @@ header .sliderBg #sliderCaption
     -moz-border-radius: 0;
     -ms-border-radius: 0;
     -o-border-radius: 0;
-} */
+} 
 /* End Section HEADER =======
 /* Start Section home-category */
 .home-category
@@ -819,7 +820,7 @@ header .sliderBg #sliderCaption
     -moz-border-radius: 0;
     -ms-border-radius: 0;
     -o-border-radius: 0;
-    margin-left: -20px;
+    margin-left: -5px;
     border-bottom-right-radius: 5px;
     border-top-right-radius: 5px;
 }
@@ -872,3 +873,13 @@ footer .End-Footer
     height: 12vh;
 }
 /* End Section footer  */
+@media only screen and (max-width: 600px){
+    .sliderBg .content{
+        display: inline-block;
+        position: absolute;
+        justify-content:center;
+        text-align: center;
+        align-items: center;
+        margin-left: -45px;
+    }
+}
